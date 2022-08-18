@@ -6,7 +6,7 @@ describe("Login and check 3 get endpoints", () => {
         url: 'https://staging.wcbshub.com/api/v1/token',
         body: {
           "client_id": "3e4fd4e664b866d7b2df600c487520f4",
-          "client_secret": "a77743c94d3ec5f58f123c4a5373821addb1907f446bcbecd23c3268031d90994c08c79013ed68be93c891fd8204f47c3e7571310c832a7c93dfb34e5e4da4b7",
+          "client_secret": "",
           "grant_type": "client_credentials",
           "password": "",
           "scope": "*",
